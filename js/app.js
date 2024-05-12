@@ -131,6 +131,8 @@ startButton.onclick = _ => {
     mainGame.style.display = "block";
     gameNameOne.innerHTML = `Player-1: ${nameOne}`;
     gameNameTwo.innerHTML = `Player-2: ${nameTwo}`;
+    xName = nameOne;
+    oName = nameTwo;
   }
 
 }
